@@ -1,0 +1,135 @@
+﻿/*CSS cho the body*/
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+ 
+ul {
+    list-style-image: url('images/bullet_green.png');
+} 
+
+h3{
+	text-align: center;
+}
+
+/*CSS cho div main*/
+#main{
+    width: 1000px;
+    padding: 0;
+	background-color: #FFEBCD;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: -0.2cm;
+}
+
+#head{
+    height: 180px;	
+    background-image: url('images/banner-hoa.jpg');	     
+} 
+#head-link{
+     font-size: 14px;
+	 font-weight: bold;
+	 color: #FFFFFF;
+	 height: 30px;       
+     background-color: #FFA500;    
+	 line-height: 30px;
+     padding-left: 8px;
+     padding-right: 8px;	    
+}
+#head-link2{ 
+	float:left;
+	 width:180px;      
+}
+#head-link3{
+    float:left;
+	 width:800px;	 
+}
+#left{
+     font-size: 14px;	
+	 width: 194px;
+     min-height: 400px;    
+     float:left;     
+     margin-bottom: 5px; 
+}
+
+/*CSS dinh dang navigaton bar phan ben trai*/
+ul.demo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: hotpink;
+  color: white;
+}
+
+li a:hover {
+  background-color: pink;
+  color: white;
+}
+
+
+/*CSS cho phan giua*/
+#content{
+	
+     width: 593px;
+     min-height:400px;  
+	 color: blue;
+	 font-weight: bold;	
+     float:left;	
+     margin: 5px 0px 5px 7px;
+	
+}
+
+imghoa{
+	text-align: center;
+	clear:both;
+	width:200px;
+	margin:5px;
+	padding:5px;
+	border:thin silver solid;
+}
+
+
+#right{
+	
+     width: 195px;
+     min-height: 400px;     
+     float:right;
+	 margin: 5px 5px 0px 5px;
+    
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+}
+.grid-item {
+  text-align: center;
+  width: 250px;
+ 
+  padding: 20px;
+  text-align: center;
+}
+
+
+#footer{
+     height: 50px;
+     clear: both;   
+	 padding-top:20px;
+     background-color: #1E90FF;
+	 text-align: center;
+	 font-size: 14px;	
+	 color:#ffffff;	 
+}
+

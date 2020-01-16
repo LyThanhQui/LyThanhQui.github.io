@@ -1,0 +1,130 @@
+﻿<html>
+	<head>
+		<title>Thế giới hoa</title>
+		<!--<meta http-equiv="refresh" content="30">-->
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="noidung.css">
+		<link rel="stylesheet" href="dist/sakura.css" />
+		
+		
+		
+		
+	<!--jquery-->	 
+  <script type="text/javascript" src="jquery-3.4.1.min.js">
+  </script>
+
+  
+  <script>
+  $(document).ready(function(){
+	$("#active1").click(function(){
+	$(".tablinks").slideToggle();
+	});
+	
+	
+	$("#active2").click(function(){
+	$(".tablinks1").slideToggle();
+	});
+	  
+});
+	 <!--end jquery--> 
+  </script>
+	</head>
+	<body>
+		
+		<div id="main">
+			<div id="head">
+			</div>
+			<div id="head-link">
+				<div id="head-link2">
+				&nbsp;	Trang chủ &nbsp;&nbsp;&nbsp;&nbsp; Liên hệ &nbsp;&nbsp;&nbsp;&nbsp;				
+				</div>
+				<div id="head-link3">	
+					<!-- dat the <marquee  tai day-->
+				<marquee onmousemove = "this.stop();" onmouseout="this.start();"
+					behavior = "scroll" direction ="left" scrollamount = 3>
+					Hoa tươi Long Xuyên kính chào quý khách, nhận đặt hoa cưới, sinh nhật,
+					chúc mừng, Chúng tôi ship hàng trong nội ô Long Xuyên
+				</marquee>	
+				
+				</div>
+			</div>
+			<div id="left">
+				<div>
+					<ul class="demo">
+  						<li><a class="active" id="active1" href="#home">Hoa Tươi Online</a></li>
+  						<li class="tablinks"><a href="#news">Ý nghĩa các loài hoa</a></li>
+  						<li class="tablinks"><a href="#contact">Hoa cưới</a></li>
+  						<li class="tablinks"><a href="#about">Hoa chúc mừng</a></li>
+						<li class="tablinks"><a href="#about">Hoa tình yêu</a></li>
+						<li class="tablinks"><a href="#about">Video các loài hoa</a></li>
+					</ul>
+				</div>
+				<div>
+					<ul class="demo">
+  						<li><a class="active" id ="active2" href="#home">Hỗ Trợ Khách Hàng</a></li>
+  						<li	class="tablinks1"><a href="#news">Đăng nhập</a></li>
+  						<li class="tablinks1"><a href="#contact">Đăng ký</a></li>
+  						<li class="tablinks1"><a href="#about">Góp ý</a></li>
+					</ul >
+				</div>
+				<div>
+					<ul class="demo">
+  						<li><a class="active"  href="#home">Video hay</a></li>
+  						<li>
+							<video width="194px" controls autoplay>
+								<source  src="songgio.mp4" type="video/mp4">
+							</video>
+						</li>
+  						
+					</ul >
+				</div>
+			</div>
+			<div id="content">
+				<div class="imggiua">
+				<img src="images/hoa9.jpg" style="width:590px; height:400px">
+				</div>
+				<div class="grid-container">
+  					<div class="grid-item"><img src="images/hoa6.jpg" width:250px; >Hoa Tulip</div>
+  					<div class="grid-item"><img src="images/hoa6.jpg" width:250px; >Hoa Ly</div>
+ 					<div class="grid-item"><img src="images/hoa6.jpg" width:250px; >Hoa Cúc</div>  
+ 					 <div class="grid-item"><img src="images/hoa6.jpg" width:250px;>Hoa Hồng</div>
+  					 
+					</div>	
+				
+			</div>
+			<div id="right">
+				<div class="imgphai">
+				<img src="images/hoa8.jpg" style="width:190px; height:400px">
+				</div>
+			</div>
+			<div id="footer">
+				Bản quyền &copy; bởi shop hoa tươi Long Xuyên |
+					Gmail: lquiitfuture@gmail
+			</div>
+		</div>
+		
+	<script src="dist/sakura.js" text="text/javascript"></script>
+    <script>
+      var sakura = new Sakura('body', {
+        colors: [
+          {
+            gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+            gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: 'rgba(255,189,189)',
+            gradientColorEnd: 'rgba(227,170,181)',
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: 'rgba(212,152,163)',
+            gradientColorEnd: 'rgba(242,185,196)',
+            gradientColorDegree: 120,
+          },
+        ],
+        delay: 200,
+      });
+    </script>
+	</body>
+</html>
